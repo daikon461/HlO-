@@ -3,7 +3,7 @@ loaderVersion="[4,)"
 license="MIT"
 [[mods]]
 modId="hardcore_loot_overhaul"
-version="1.0.0-rc6"
+version="1.0.0"
 displayName="Hardcore Loot Overhaul"
 description="Additive structure chest loot for hardcore exploration."
 [[dependencies.hardcore_loot_overhaul]]
