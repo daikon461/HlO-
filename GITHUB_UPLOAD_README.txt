@@ -1,0 +1,1 @@
+Extract this ZIP, upload its contents (not the ZIP itself) to the root of your GitHub repository. Keep .github folder. GitHub Actions will run generate_loot_data.py before building. The original 500 loot JSON files are generated during build.
