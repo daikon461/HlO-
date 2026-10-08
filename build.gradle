@@ -3,5 +3,5 @@ group = 'com.hardcorelootoverhaul'
 version = '1.0.0-rc6-apotheosis'
 base { archivesName = 'hardcore-loot-overhaul' }
 java.toolchain.languageVersion = JavaLanguageVersion.of(21)
-neoForge { version = '1.0.0-rc6-apotheosis' }
+neoForge { version = '21.1.209' }
 tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
