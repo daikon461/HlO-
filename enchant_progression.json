@@ -1,0 +1,54 @@
+{
+  "enabled": true,
+  "note": "Loot item enchantment levels only; does not change Apotheosis global caps or enchanting-table rules.",
+  "tiers": {
+    "starter": {
+      "chance": 0.12,
+      "levels": {
+        "minecraft:sharpness": 2,
+        "minecraft:protection": 2,
+        "minecraft:efficiency": 2
+      }
+    },
+    "early_mid": {
+      "chance": 0.18,
+      "levels": {
+        "minecraft:sharpness": 3,
+        "minecraft:protection": 3,
+        "minecraft:efficiency": 3
+      }
+    },
+    "mid": {
+      "chance": 0.25,
+      "levels": {
+        "minecraft:sharpness": 4,
+        "minecraft:protection": 4,
+        "minecraft:efficiency": 4
+      }
+    },
+    "mid_late": {
+      "chance": 0.32,
+      "levels": {
+        "minecraft:sharpness": 5,
+        "minecraft:protection": 5,
+        "minecraft:efficiency": 5
+      }
+    },
+    "late": {
+      "chance": 0.42,
+      "levels": {
+        "minecraft:sharpness": 7,
+        "minecraft:protection": 6,
+        "minecraft:efficiency": 7
+      }
+    },
+    "apex": {
+      "chance": 0.52,
+      "levels": {
+        "minecraft:sharpness": 9,
+        "minecraft:protection": 8,
+        "minecraft:efficiency": 9
+      }
+    }
+  }
+}

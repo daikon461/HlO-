@@ -1,0 +1,30 @@
+{
+  "enabled": true,
+  "tiers": {
+    "starter": {
+      "chance": 0.04,
+      "level": 2
+    },
+    "early_mid": {
+      "chance": 0.07,
+      "level": 3
+    },
+    "mid": {
+      "chance": 0.11,
+      "level": 4
+    },
+    "mid_late": {
+      "chance": 0.16,
+      "level": 5
+    },
+    "late": {
+      "chance": 0.24,
+      "level": 7
+    },
+    "apex": {
+      "chance": 0.34,
+      "level": 9
+    }
+  },
+  "notes": "Independent relic equipment and enchanted book pool; no Apotheosis-specific affix API used."
+}

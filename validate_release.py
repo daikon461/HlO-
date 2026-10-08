@@ -17,6 +17,9 @@ for entry in entries:
  p=base/namespace/'loot_modifiers'/f'{name}.json'
  if not p.exists():errors.append('missing modifier '+str(p));continue
  d=read(p);mods.append(d)
+ if d.get('type') in ('apotheosis:affix_loot','apotheosis:gems'):
+  if not d.get('entries'):errors.append('missing Apotheosis entries '+entry)
+  continue
  if d.get('type')!='neoforge:add_table':errors.append('unexpected modifier type '+entry)
  table=d.get('table','')
  try:ns,path=table.split(':',1)

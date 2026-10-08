@@ -1,0 +1,18 @@
+{
+  "affix_chance": {
+    "starter": 0.03,
+    "early_mid": 0.06,
+    "mid": 0.1,
+    "mid_late": 0.15,
+    "late": 0.23,
+    "apex": 0.32
+  },
+  "gem_chance": {
+    "starter": 0.04,
+    "early_mid": 0.08,
+    "mid": 0.13,
+    "mid_late": 0.2,
+    "late": 0.3,
+    "apex": 0.42
+  }
+}
