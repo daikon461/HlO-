@@ -7,8 +7,8 @@
   },
   "tiers": {
     "starter": {
-      "vanilla_chance": 0.12,
-      "mod_chance": 0.025,
+      "vanilla_chance": 0.27,
+      "mod_chance": 0.08,
       "vanilla": [
         [
           "minecraft:iron_ingot",
@@ -25,8 +25,8 @@
       ]
     },
     "early_mid": {
-      "vanilla_chance": 0.17,
-      "mod_chance": 0.045,
+      "vanilla_chance": 0.35,
+      "mod_chance": 0.12,
       "vanilla": [
         [
           "minecraft:gold_ingot",
@@ -43,8 +43,8 @@
       ]
     },
     "mid": {
-      "vanilla_chance": 0.21,
-      "mod_chance": 0.075,
+      "vanilla_chance": 0.42,
+      "mod_chance": 0.18,
       "vanilla": [
         [
           "minecraft:diamond",
@@ -61,8 +61,8 @@
       ]
     },
     "mid_late": {
-      "vanilla_chance": 0.25,
-      "mod_chance": 0.095,
+      "vanilla_chance": 0.48,
+      "mod_chance": 0.23,
       "vanilla": [
         [
           "minecraft:diamond",
@@ -79,8 +79,8 @@
       ]
     },
     "late": {
-      "vanilla_chance": 0.29,
-      "mod_chance": 0.12,
+      "vanilla_chance": 0.56,
+      "mod_chance": 0.29,
       "vanilla": [
         [
           "minecraft:diamond",
@@ -97,8 +97,8 @@
       ]
     },
     "apex": {
-      "vanilla_chance": 0.34,
-      "mod_chance": 0.15,
+      "vanilla_chance": 0.65,
+      "mod_chance": 0.36,
       "vanilla": [
         [
           "minecraft:netherite_scrap",
@@ -121,8 +121,8 @@
       "apex"
     ],
     "chances": {
-      "late": 0.002,
-      "apex": 0.006
+      "late": 0.006,
+      "apex": 0.014
     },
     "rewards": [
       [
