@@ -1,6 +1,6 @@
 plugins { id 'java'; id 'net.neoforged.moddev' version '2.0.107' }
 group = 'com.hardcorelootoverhaul'
-version = '1.1.0-beta2-fulltier'
+version = '1.1.0-beta3-enchanted-chance'
 base { archivesName = 'hardcore-loot-overhaul' }
 java.toolchain.languageVersion = JavaLanguageVersion.of(21)
 neoForge { version = '21.1.209' }
