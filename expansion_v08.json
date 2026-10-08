@@ -1,0 +1,9 @@
+{
+  "chance_by_tier": {"early_mid": 0.12, "mid_late": 0.19, "late": 0.25},
+  "miracle_chance": 0.001,
+  "items_by_tier": {
+    "early_mid": [["minecraft:iron_ingot",5],["minecraft:emerald",3],["minecraft:gold_ingot",2]],
+    "mid_late": [["minecraft:diamond",3],["minecraft:experience_bottle",5],["minecraft:golden_apple",1]],
+    "late": [["minecraft:diamond",5],["minecraft:netherite_scrap",1],["minecraft:golden_apple",2]]
+  }
+}
