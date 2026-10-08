@@ -1,0 +1,39 @@
+{
+  "enabled": true,
+  "miracle_chance_by_tier": {
+    "starter": 0.001,
+    "early_mid": 0.001,
+    "mid": 0.002,
+    "mid_late": 0.002,
+    "late": 0.003,
+    "apex": 0.003
+  },
+  "miracle_items": [
+    [
+      "minecraft:enchanted_golden_apple",
+      4
+    ],
+    [
+      "minecraft:netherite_upgrade_smithing_template",
+      3
+    ],
+    [
+      "minecraft:netherite_scrap",
+      5
+    ]
+  ],
+  "unique_weapons": {
+    "enabled": false,
+    "note": "Default OFF: Simply Swords/Simply More special generation and pity mechanisms have not been validated. Enabling requires registry ID and behavior validation.",
+    "simplyswords": {
+      "enabled": false,
+      "chance": 0.0005,
+      "items": []
+    },
+    "simplymore": {
+      "enabled": false,
+      "chance": 0.0005,
+      "items": []
+    }
+  }
+}

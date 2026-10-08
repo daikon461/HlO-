@@ -1,0 +1,172 @@
+{
+  "settings": {
+    "enabled": true,
+    "vanilla_multiplier": 1.0,
+    "mod_multiplier": 1.0,
+    "jackpot_multiplier": 1.0
+  },
+  "tiers": {
+    "starter": {
+      "vanilla_chance": 0.12,
+      "mod_chance": 0.025,
+      "vanilla": [
+        [
+          "minecraft:iron_ingot",
+          6
+        ],
+        [
+          "minecraft:emerald",
+          4
+        ],
+        [
+          "minecraft:bread",
+          3
+        ]
+      ]
+    },
+    "early_mid": {
+      "vanilla_chance": 0.17,
+      "mod_chance": 0.045,
+      "vanilla": [
+        [
+          "minecraft:gold_ingot",
+          6
+        ],
+        [
+          "minecraft:diamond",
+          2
+        ],
+        [
+          "minecraft:experience_bottle",
+          4
+        ]
+      ]
+    },
+    "mid": {
+      "vanilla_chance": 0.21,
+      "mod_chance": 0.075,
+      "vanilla": [
+        [
+          "minecraft:diamond",
+          4
+        ],
+        [
+          "minecraft:ender_pearl",
+          5
+        ],
+        [
+          "minecraft:golden_apple",
+          2
+        ]
+      ]
+    },
+    "mid_late": {
+      "vanilla_chance": 0.25,
+      "mod_chance": 0.095,
+      "vanilla": [
+        [
+          "minecraft:diamond",
+          5
+        ],
+        [
+          "minecraft:echo_shard",
+          2
+        ],
+        [
+          "minecraft:experience_bottle",
+          5
+        ]
+      ]
+    },
+    "late": {
+      "vanilla_chance": 0.29,
+      "mod_chance": 0.12,
+      "vanilla": [
+        [
+          "minecraft:diamond",
+          6
+        ],
+        [
+          "minecraft:netherite_scrap",
+          1
+        ],
+        [
+          "minecraft:echo_shard",
+          3
+        ]
+      ]
+    },
+    "apex": {
+      "vanilla_chance": 0.34,
+      "mod_chance": 0.15,
+      "vanilla": [
+        [
+          "minecraft:netherite_scrap",
+          3
+        ],
+        [
+          "minecraft:diamond",
+          7
+        ],
+        [
+          "minecraft:enchanted_golden_apple",
+          1
+        ]
+      ]
+    }
+  },
+  "jackpot": {
+    "tiers": [
+      "late",
+      "apex"
+    ],
+    "chances": {
+      "late": 0.002,
+      "apex": 0.006
+    },
+    "rewards": [
+      [
+        "minecraft:netherite_ingot",
+        1
+      ],
+      [
+        "minecraft:enchanted_golden_apple",
+        2
+      ],
+      [
+        "minecraft:netherite_upgrade_smithing_template",
+        2
+      ]
+    ]
+  },
+  "mod_items": {
+    "create": [
+      "create:andesite_alloy",
+      "create:brass_ingot",
+      "create:precision_mechanism",
+      "create:electron_tube",
+      "create:sturdy_sheet"
+    ],
+    "irons_spellbooks": [
+      "irons_spellbooks:arcane_essence",
+      "irons_spellbooks:arcane_ingot",
+      "irons_spellbooks:common_ink",
+      "irons_spellbooks:uncommon_ink",
+      "irons_spellbooks:rare_ink",
+      "irons_spellbooks:epic_ink",
+      "irons_spellbooks:legendary_ink"
+    ],
+    "ars_nouveau": [
+      "ars_nouveau:wilden_horn",
+      "ars_nouveau:wilden_wing",
+      "ars_nouveau:wilden_spike"
+    ],
+    "cataclysm": [
+      "cataclysm:ancient_metal_ingot",
+      "cataclysm:black_steel_ingot",
+      "cataclysm:ignitium_ingot",
+      "cataclysm:cursium_ingot",
+      "cataclysm:void_core"
+    ]
+  }
+}
