@@ -1,0 +1,8 @@
+{
+  "tiers": {
+    "low": {"chance": 0.13, "rewards": [["minecraft:iron_ingot", 7], ["minecraft:emerald", 4], ["minecraft:gold_ingot", 5], ["minecraft:bread", 3]]},
+    "mid": {"chance": 0.21, "rewards": [["minecraft:diamond", 3], ["minecraft:ender_pearl", 5], ["minecraft:experience_bottle", 6], ["minecraft:golden_apple", 2]]},
+    "high": {"chance": 0.29, "rewards": [["minecraft:diamond", 6], ["minecraft:enchanted_golden_apple", 1], ["minecraft:echo_shard", 3], ["minecraft:netherite_scrap", 2]]}
+  },
+  "jackpot": {"chance": 0.008, "rewards": [["minecraft:netherite_upgrade_smithing_template", 2], ["minecraft:enchanted_golden_apple", 3], ["minecraft:netherite_ingot", 1]]}
+}
