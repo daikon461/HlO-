@@ -1,0 +1,38 @@
+{
+  "enabled": true,
+  "mod_items": {
+    "create": [
+      "create:andesite_alloy",
+      "create:brass_ingot",
+      "create:precision_mechanism",
+      "create:electron_tube",
+      "create:sturdy_sheet"
+    ],
+    "irons_spellbooks": [
+      "irons_spellbooks:arcane_essence",
+      "irons_spellbooks:arcane_ingot",
+      "irons_spellbooks:common_ink",
+      "irons_spellbooks:uncommon_ink",
+      "irons_spellbooks:rare_ink",
+      "irons_spellbooks:epic_ink",
+      "irons_spellbooks:legendary_ink"
+    ],
+    "ars_nouveau": [
+      "ars_nouveau:wilden_horn",
+      "ars_nouveau:wilden_wing",
+      "ars_nouveau:wilden_spike"
+    ],
+    "cataclysm": [
+      "cataclysm:ancient_metal_ingot",
+      "cataclysm:black_steel_ingot",
+      "cataclysm:ignitium_ingot",
+      "cataclysm:cursium_ingot",
+      "cataclysm:void_core"
+    ]
+  },
+  "chances": {
+    "low": 0.045,
+    "mid": 0.095,
+    "high": 0.14
+  }
+}

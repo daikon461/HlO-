@@ -1,0 +1,3 @@
+GitHub Actions workflow is included at .github/workflows/build.yml
+Windows Explorer: View > Show > Hidden items.
+If GitHub upload omitted .github, use GitHub website: Add file > Create new file > type .github/workflows/build.yml and paste contents from workflow file.
